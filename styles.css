@@ -1,0 +1,53 @@
+/* add your CSS here */
+
+
+
+.container {
+    border: 1px solid violet;
+    box-shadow: 10px 10px #e6e6e6 ;
+    border-radius: 14px;
+    background: linear-gradient(to bottom right, pink, lightyellow);
+    width: 310px;
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Baloo Paaji 2', cursive;
+    display: flex;
+    flex-direction: column;
+}
+
+.animal-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 2px 2px rgb(255, 0, 0, 0.2);
+    padding-left: 5px;
+}
+
+.animal-info {
+    border: 1px solid violet;
+    border-radius: 14px;
+    padding-left: 5px;
+    width: 298px;
+    margin: 5px auto;
+    background-color: rgba(255, 0, 0, 0.1);
+}
+
+.animal-img{
+    width: 300px;
+    height: 200px;
+    border: 1px solid violet;
+    border-radius: 14px;
+    margin: 5px auto;
+}
+
+.animal-facts {
+    font-style: italic;
+}
+
+li {
+    list-style: none;
+
+}
+
+li > span {
+    font-weight: bold;
+}
